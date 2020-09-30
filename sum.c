@@ -11,9 +11,9 @@ int n;
 	scanf("%d",&x);
 
 	if(calc(A,n,x))
-		printf("Yes \n");
+		printf("Yes it is correct \n");
 	else
-		printf("No \n");
+		printf("No  \n");
 }
 
 int calc(int A[], int n, int x)
